@@ -9,7 +9,7 @@ int main() {
   
   curlpp::Easy request;
   
-  request.setOpt<curlpp::options::Url>("http://example.com");
+  request.setOpt<curlpp::options::Url>("www2353.sakura.ne.jp");
   
   request.perform();
 }

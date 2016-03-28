@@ -1,0 +1,3 @@
+/Users/yanai/Desktop/curlppTest/Mac/test01/xcode/CMakeFiles/ALL_BUILD.dir
+/Users/yanai/Desktop/curlppTest/Mac/test01/xcode/CMakeFiles/ZERO_CHECK.dir
+/Users/yanai/Desktop/curlppTest/Mac/test01/xcode/src/CMakeFiles/test01.dir
