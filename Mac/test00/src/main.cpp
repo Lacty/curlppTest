@@ -1,7 +1,15 @@
 
-#include <iostream>
+#include <curlpp/cURLpp.hpp>
+#include <curlpp/Easy.hpp>
+#include <curlpp/Options.hpp>
 
 
 int main() {
-  std::cout << "test" << std::endl;
+  curlpp::Cleanup cleanup;
+  
+  curlpp::Easy request;
+  
+  request.setOpt<curlpp::options::Url>("http://example.com");
+  
+  request.perform();
 }
